@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week1 day2: page3</title>
+  </head>
+  <body>
+    <!--Wrapper Container  -->
+    <div id="container">
+      <!--Header  -->
+      <header>My webpage brand</header>
+      <!--Navigation  -->
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="page2.html">About us</a></li>
+          <li><a href="page3.html">Contact Us</a></li>
+          <li>Gallery</li>
+        </ul>
+      </nav>
+      <!--Main content  -->
+      <main>
+        <h1>My second heading</h1>
+        <p>This is my second paragraph information.</p>
+        <img
+          src="central_park.jpg"
+          alt="central_park in winter"
+          width="500px"
+        />
+        <form action="/signup" method="post">
+          <fieldset>
+            <legend>User information</legend>
+            <label>Your full name</label><br />
+            <input type="text" name="full_name" /><br />
+            <label>Your Email address</label><br />
+            <input type="email" name="email" /><br />
+            <label>Your phone number</label><br />
+            <input type="text" name="phone" /><br />
+            <label>Your Gender</label><br />
+            <input type="radio" name="gender" value="male" />Male<br />
+            <input type="radio" name="gender" value="female" />Female<br />
+            <input type="radio" name="gender" value="other" />Other<br />
+            <label>How should we contact you?</label><br />
+            <select>
+              <option>email</option>
+              <option>phone</option>
+              <option>carrier pidgeon</option></select
+            ><br />
+            <label>What do you need today?</label><br />
+            <textarea cols="40" rows="5"></textarea><br />
+            <input type="button" value="signup" />
+          </fieldset>
+        </form>
+      </main>
+    </div>
+    <br />
+    <hr />
+    <footer>&copy; copyright 2023</footer>
+  </body>
+</html>
